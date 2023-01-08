@@ -1,0 +1,13 @@
+.t {
+    &--bold {
+        font-weight: 600;
+    }
+
+    &--italic {
+        font-style: italic;
+    }
+
+    &--center {
+        text-align: center;
+    }
+}

@@ -1,0 +1,41 @@
+@mixin breakpoint($point) {
+    @if $point == huge {
+        @media (max-width: $breakpoint-huge) {
+            @content;
+        }
+    } @else if $point == large {
+        @media (max-width: $breakpoint-large) {
+            @content;
+        }
+    } @else if $point == medium {
+        @media (max-width: $breakpoint-medium) {
+            @content;
+        }
+    } @else if $point == small {
+        @media (max-width: $breakpoint-small) {
+            @content;
+        }
+    } @else if $point == tiny {
+        @media (max-width: $breakpoint-tiny) {
+            @content;
+        }
+    } @else {
+        @media (max-width: $point) {
+            @content;
+        }
+    }
+}
+
+@mixin square($unit) {
+    width: $unit;
+    height: $unit;
+}
+
+@mixin pseudoFull {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+}
