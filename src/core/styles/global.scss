@@ -1,28 +1,27 @@
 // =============================
 //  Settings
 // =============================
-@use 'settings/root';
-@use 'settings/variables';
-@use 'settings/fonts';
+@use "settings/root";
+@use "settings/variables";
+@use "settings/fonts";
 
 // =============================
 //  Tools
 // =============================
-@use 'tools/functions';
-@use 'tools/mixins';
+@use "tools/functions";
+@use "tools/mixins";
 
 // =============================
 //  Generic
 // =============================
-@use 'generic/reset';
-@use 'generic/page';
-@use 'generic/typography';
+@use "generic/reset";
+@use "generic/page";
+@use "generic/typography";
 
 // =============================
 //  Utilities
 // =============================
-@use '~scss-partials/index'; // Import all scss-partials from https://github.com/Willem-Jaap/scss-partials
-@use 'utilities/text';
+@use "utilities/text";
 
 // =============================
 //  Elements
