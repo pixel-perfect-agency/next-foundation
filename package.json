@@ -5,7 +5,8 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "stylelint": "stylelint \"**/*.scss\" --fix"
     },
     "dependencies": {
         "next": "^13.1.4",
@@ -21,6 +22,10 @@
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-prettier": "^4.2.1",
         "sass": "^1.57.1",
+        "stylelint": "^14.16.1",
+        "stylelint-config-hudochenkov": "^8.0.1",
+        "stylelint-config-prettier": "^9.0.4",
+        "stylelint-config-standard-scss": "^6.1.0",
         "typescript": "4.9.4"
     }
 }
