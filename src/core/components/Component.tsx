@@ -1,6 +1,6 @@
-import React, { type FC } from 'react';
+import React from 'react';
 
-const Component: FC = () => {
+const Component = () => {
     return (
         <>
             <h1>Hello World</h1>

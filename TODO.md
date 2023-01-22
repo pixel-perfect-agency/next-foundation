@@ -1,7 +1,6 @@
 # **TODO**
 
--   Implement tsconfig
--   Implement eslint or tslint
--   Implement prettier
+-   Implement stylelint
+-   Implement .env
 -   Implement cypress
 -   Implement i18n
