@@ -9,6 +9,23 @@ npm i
 npm run dev
 ```
 
+## **Table of contents**
+
+-   [**Rationale**](#rationale)
+-   [**Why should it be used?**](#why)
+-   [**Folder structure**](#folder-structure)
+-   [**/docs**](#docs)
+-   [**/public**](#public)
+-   [Folders in `/src`:](#folders-in-src)
+    -   [**/app**](#app)
+    -   [**/core**](#core)
+    -   [**/locales**](#locales)
+    -   [**/modules**](#modules)
+-   [**Installation**](#installation)
+    -   [Quick setup:](#quick-setup-1)
+    -   [Commands:](#commands)
+    -   [Documentation:](#documentation)
+
 ## **Rationale**
 
 Next.js it is a great framework for building React applications. It is very easy to get started with and has a lot of great features. However, it's not very opinionated about how a project should be structured. This is fine for a small project built in free time but can become a problem when working on a large project with a team of developers. This is where this project comes in.
@@ -17,7 +34,7 @@ Next.js it is a great framework for building React applications. It is very easy
 
 <br>
 
-## **Why?**
+## **Why should it be used?**
 
 Why should this project be used as a starting point for projects? Here are some reasons:
 
@@ -37,6 +54,18 @@ Documentation is hard. It takes a lot of time and effort to write effective tech
 It is very useful to have docs in the **same place** as the code. This way, it is easy to keep the docs up to date, something like a wiki or external software is often forgotten.
 
 Documentation is written in [Markdown](https://www.markdownguide.org/). This is a very simple markup language that is easy to learn.
+
+<br>
+
+### **/public**
+
+The **public** folder contains all static files. This includes:
+
+-   Images
+-   Fonts
+-   Favicon
+-   robots.txt
+-   sitemap.xml
 
 <br>
 
