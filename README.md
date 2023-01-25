@@ -112,6 +112,12 @@ The **pages** folder contains pages and (for now) api routes. The app folder sho
 
 <br>
 
+### **/tests**
+
+The **tests** folder contains e2e tests with Playwright. This is a great tool for testing the application. It is very easy to use and has a lot of great features. Read extensive documentation about [Playwright here](https://playwright.dev/docs/intro).
+
+<br>
+
 ### **/types**
 
 The **types** folder contains all the typescript types. These can be reusable, types for the application or types for the API.
