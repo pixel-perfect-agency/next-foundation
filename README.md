@@ -12,7 +12,7 @@ npm run dev
 ## **Table of contents**
 
 -   [**Rationale**](#rationale)
--   [**Why should it be used?**](#why)
+-   [**Strong points**](#strong-points)
 -   [**Folder structure**](#folder-structure)
 -   [**/docs**](#docs)
 -   [**/public**](#public)
@@ -34,24 +34,24 @@ Next.js it is a great framework for building React applications. It is very easy
 
 <br>
 
-## **Why should it be used?**
+## **Strong points**
 
 Why should this project be used as a starting point for projects? Here are some reasons:
 
--   **Very well documented.** Extensive documentation about the project, with references. This is very useful for new developers who are not familiar with the project structure.
+-   **Very well documented.** Extensive documentation about the project, with references. This is very important for new developers who are not familiar with the project structure.
 -   **Scalable.** This project is built with scalability in mind. It provides a guide for seperation of concerns.
 -   **Strict code style.** This project uses [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) to enforce a strict code style. This makes it easy to work with other developers.
 -   **Based on Next.js 13.** This project is built on top of Next.js 13. This means that all the great features of Next.js 13 are available. It will be upgraded to the latest versions of Next.
--   **Frontend-first.** This project is built with a frontend-first mindset. A lot of teams want to seperate frontand and API's. For example using [Laravel](https://laravel.com/). Even though Next.js can be a [fullstack framework](https://www.youtube.com/watch?v=W4UhNo3HAMw).
+-   **Frontend-first.** This project is built with a frontend-first mindset. A lot of teams want to seperate frontend and API's. For example by using [Laravel](https://laravel.com/). Even though Next.js can be a [fullstack framework](https://www.youtube.com/watch?v=W4UhNo3HAMw).
 -   ⚠️TODO: **\*End to end testing.** This project uses [Cypress](https://www.cypress.io/) for testing. This is very useful for testing the application.\*
 
 ## **Folder structure**
 
 ### **/docs**
 
-Documentation is hard. It takes a lot of time and effort to write effective technical documentation for other developers. It is very useful to provide background information for features, why do they even exist? Also it is very useful to provide information about the project structure and technical decisions. This folder is the place to put all this information.
+Documentation is hard. It takes a lot of time and effort to write effective technical documentation for other developers. It is very useful to provide background information for features, why do they even exist? Also it is very helpful to provide information about the project structure and technical decisions. This folder is the place to put all this information.
 
-It is very useful to have docs in the **same place** as the code. This way, it is easy to keep the docs up to date, something like a wiki or external software is often forgotten.
+It is very convinient to have docs in the **same place** as the code. This way, it is easy to keep the docs up to date, something like a wiki or external software is often forgotten.
 
 Documentation is written in [Markdown](https://www.markdownguide.org/). This is a very simple markup language that is easy to learn.
 
@@ -59,7 +59,7 @@ Documentation is written in [Markdown](https://www.markdownguide.org/). This is 
 
 ### **/public**
 
-The **public** folder contains all static files. This includes:
+The **public** folder contains all static files. This includes files like:
 
 -   Images
 -   Fonts
@@ -105,6 +105,16 @@ The **modules** folder contains folders for every **module** in the application.
 The folder should be named after the scope of the module. For example, if the module is a **blog**, the folder should be named **`/blog`**. If the module is a **user profile**, the folder should be named **`/profile`**.
 
 <br>
+
+### **/pages**
+
+The **pages** folder contains pages and (for now) api routes. The app folder should be used mainly, but this directory can be used if the app directory, which is in beta, is not used. Read extensive documentation about the [pages directory here](https://nextjs.org/docs/basic-features/pages).
+
+<br>
+
+### **/types**
+
+The **types** folder contains all the typescript types. These can be reusable, types for the application or types for the API.
 
 ## **Installation**
 
