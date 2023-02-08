@@ -20,8 +20,6 @@
         ],
         "baseUrl": ".",
         "paths": {
-            "~app/*": ["src/app/*"],
-            "~pages/*": ["src/pages/*"],
             "~locales/*": ["src/locales/*"],
             "~modules/*": ["src/modules/*"],
             "~tests/*": ["src/tests/*"],

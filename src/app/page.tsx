@@ -1,4 +1,3 @@
-// Package imports
 import React from 'react';
 
 const Page = () => {
