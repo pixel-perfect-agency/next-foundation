@@ -2,10 +2,10 @@ import React from 'react';
 
 const Component = () => {
     return (
-        <>
-            <h1>Hello World</h1>
-            <p>This component is located in &apos;src/components/Component.tsx&apos;</p>
-        </>
+        <div className="m-x-2">
+            <h2>Hello World</h2>
+            <p>This component is located in &apos;src/core/components/Component.tsx&apos;</p>
+        </div>
     );
 };
 

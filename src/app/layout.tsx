@@ -1,10 +1,20 @@
 import React from 'react';
 
+import { Albert_Sans } from 'next/font/google';
+
 import '~styles/global.scss';
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+interface Props {
+    children: React.ReactNode;
+}
+
+const AlbertSansFont = Albert_Sans({
+    subsets: ['latin'],
+});
+
+const RootLayout = ({ children }: Props) => {
     return (
-        <html>
+        <html className={AlbertSansFont.className}>
             <body>{children}</body>
         </html>
     );

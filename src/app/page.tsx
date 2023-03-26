@@ -1,10 +1,13 @@
 import React from 'react';
 
+import Component from '~components/Component';
+
 const Page = () => {
     return (
-        <div>
-            <h1>Next Foundation</h1>
-        </div>
+        <>
+            <h1 className="m-2">Next Foundation</h1>
+            <Component />
+        </>
     );
 };
 
