@@ -1,6 +1,6 @@
 # **Next.js Foundation**
 
-A very **solid foundation** for a scalable Next.js projects.
+A very **solid architecture** for scalable Next.js projects.
 
 ### **Quick setup**
 
