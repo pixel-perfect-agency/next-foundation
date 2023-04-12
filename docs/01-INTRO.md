@@ -44,5 +44,5 @@ pnpm run test:report # Run all tests and generate a report
 ## **Table of Contents**
 
 -   [Folder Structure](./02-FOLDER-STRUCTURE.md)
--   [Testing](./03-TESTING.md)
--   [CI](./04-CI.md)
+-   [Components](./03-COMPONENTS.md)
+-   [Styles](./04-STYLES.md)

@@ -27,7 +27,7 @@ First layer that contains actual styling. This layer contains styling that is no
 
 `_reset.scss` contains a normalization based on [normalize.css](https://necolas.github.io/normalize.css/) and removes base margin and padding from all elements.
 
-`_page.scss` contains styling for the `html`, `body` and other 'full-page-wrapping` elements.
+`_page.scss` contains styling for the `html`, `body` and other 'full-page-wrapping' elements.
 
 `_typography.scss` contains styling for the `h1`-`h6` and `p` elements. If your design has consistent typography, you should never use other font sizes than the ones defined in this file.
 
