@@ -59,12 +59,6 @@ The folder should be named after the scope of the module. For example, if the mo
 
 <br>
 
-### **/pages**
-
-The **pages** folder contains pages and (for now) api routes. The app folder should be used mainly, but this directory can be used if the app directory, which is in beta, is not used. Read extensive documentation about the [pages directory here](https://nextjs.org/docs/basic-features/pages).
-
-<br>
-
 ### **/tests**
 
 The **tests** folder contains e2e tests with Playwright. This is a great tool for testing the application. It is very easy to use and has a lot of great features. Read extensive documentation about [Playwright here](https://playwright.dev/docs/intro).
