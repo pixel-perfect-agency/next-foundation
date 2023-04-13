@@ -6,7 +6,7 @@ This is the documentation for the **Next.js 13** starter template. This template
 -   **Scalable.** This project is built with scalability in mind. It provides a guide for seperation of concerns.
 -   **Strict code style.** This project uses [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/) to enforce a strict code style. This makes it easy to work with other developers.
 -   **Based on Next.js 13.** This project is built on top of Next.js 13. This means that all the great features of Next.js 13 are available. It will be upgraded to the latest versions of Next.
--   **Frontend-first.** This project is built with a frontend-first mindset. A lot of teams want to seperate frontend and API's. For example by using [Laravel](https://laravel.com/), even though Next.js can be a [fullstack framework](https://www.youtube.com/watch?v=W4UhNo3HAMw).
+-   **Frontend-first.** This project is built with a frontend-first mindset. A lot of teams want to seperate frontend and API's. For example by using [Laravel](https://laravel.com/), even though Next.js can be used as a [fullstack framework](https://www.youtube.com/watch?v=W4UhNo3HAMw).
 -   **End to end testing.** This project uses [Playwright](https://playwright.dev/) for end to end testing. This is a great tool for testing the application as a whole.
 
 ## **Why Next.js?**

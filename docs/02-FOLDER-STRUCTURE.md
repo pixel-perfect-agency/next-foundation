@@ -4,7 +4,7 @@
 
 Documentation is hard. It takes a lot of time and effort to write effective technical documentation for other developers. It is very useful to provide background information for features, why do they even exist? Also it is very helpful to provide information about the project structure and technical decisions. This folder is the place to put all this information.
 
-It is very convinient to have docs in the **same place** as the code. This way, it is easy to keep the docs up to date, something like a wiki or external software is often forgotten.
+It is very convenient to have docs in the **same place** as the code. This way, it is easy to keep the docs up to date, something like a wiki or external software is often forgotten.
 
 Documentation is written in [Markdown](https://www.markdownguide.org/). This is a very simple markup language that is easy to learn.
 
