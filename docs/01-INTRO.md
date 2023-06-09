@@ -1,6 +1,6 @@
 # **Introduction**
 
-This is the documentation for the **Next.js 13** starter template. This template is a **boilerplate** for **Next.js 13** projects. It is a **starting template** for new projects, and a **reference** for existing projects.
+This is the documentation for **Next Foundation**. It is a **starting template** for new projects, and a **reference** for existing projects.
 
 -   **Very well documented.** Extensive documentation about the project, with references. This is very important for new developers who are not familiar with the project structure.
 -   **Scalable.** This project is built with scalability in mind. It provides a guide for seperation of concerns.
@@ -35,7 +35,6 @@ pnpm run dev # Run Next.js development server
 pnpm run build # Create a build of the project.
 pnpm start # Run the build
 pnpm run lint # Lint all javascript & typescript (.js, jsx, ts, tsx) using next lint with eslint & prettier
-pnpm run stylelint # Lint all css & scss (.css, .scss)
 pnpm run test # Run all tests
 pnpm run test:debug # Run all tests in debug mode with visible browser
 pnpm run test:report # Run all tests and generate a report
