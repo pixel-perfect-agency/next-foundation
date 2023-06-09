@@ -6,7 +6,6 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "stylelint": "stylelint \"**/*.scss\"",
         "test": "playwright test",
         "test:debug": "playwright test --headed",
         "test:report": "playwright show-report"
