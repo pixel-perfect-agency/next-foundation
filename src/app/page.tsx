@@ -2,10 +2,10 @@ import Component from '~components/misc/component';
 
 const Page = () => {
     return (
-        <>
-            <h1 className="m-2">Next Foundation</h1>
+        <div className="m-8">
+            <h1 className="text-4xl font-bold">Next Foundation</h1>
             <Component />
-        </>
+        </div>
     );
 };
 
