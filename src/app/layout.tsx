@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Albert_Sans } from 'next/font/google';
 
 interface Props {
