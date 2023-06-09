@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Component from '~components/Component';
+import Component from '~components/misc/component';
 
 const Page = () => {
     return (
