@@ -22,7 +22,7 @@
         "@playwright/test": "^1.35.1",
         "@types/node": "20.3.1",
         "@types/react": "18.2.12",
-        "eslint": "^8.42.0",
+        "eslint": "^8.43.0",
         "eslint-config-pixel": "^1.4.3",
         "sass": "^1.63.4",
         "stylelint": "^15.8.0",
