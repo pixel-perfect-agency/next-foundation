@@ -20,6 +20,7 @@
         ],
         "baseUrl": ".",
         "paths": {
+            "~app/*": ["src/app/*"],
             "~locales/*": ["src/locales/*"],
             "~modules/*": ["src/modules/*"],
             "~tests/*": ["src/tests/*"],
