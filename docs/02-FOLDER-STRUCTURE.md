@@ -29,6 +29,31 @@ The **public** folder contains all static files. This includes files like:
 The **`/app`** folder contains all routes (pages) and the **layout** of the application. This folder is the **entry point** of the application and handled by **Next.js 13**. Read extensive documentation about the [app directory here](https://beta.nextjs.org/docs/routing/fundamentals#the-app-directory).
 <br>
 
+Subfolders in `/app`:
+
+Some components are scoped to a specific route groups or routes.
+
+Take a look at the following example:
+
+```txt
+/app
+├── (dashboard)
+│   ├── components/
+│   └── page.tsx
+├── (auth)
+│   ├── components/
+│   ├── hooks/
+│   ├── layout.tsx
+│   └── page.tsx
+└── (profile)
+    ├── components/
+    └── page.tsx
+```
+
+You must never use components from other "modules" in a module. For example, the **dashboard** module must not use components from the **auth** module.
+
+If a component is used in multiple modules, it should be placed in the **/components** folder.
+
 ### **/components**
 
 The **core** components of the application. This folder contains all components that are used in multiple modules. These components are **generic** and **reusable**. They are **not** specific to a module. Examples of these components are:

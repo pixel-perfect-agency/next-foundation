@@ -30,12 +30,13 @@ Props should be named in camelCase.
 -   `isDisabled`
 -   `onSubmit`
 
-You should declare props in an interface called `Props`. `children` should be defined using the `PropsWithChildren` type.
+You should declare props in an interface called `Props`. `children` should be defined using the `ReactNode` type.
 
 ```tsx
-import { type PropsWithChildren } from 'react';
+import { type ReactNode } from 'react';
 
-interface Props extends PropsWithChildren {
+interface Props {
+    children: ReactNode;
     isDisabled?: boolean;
     onSubmit: () => void;
 }
@@ -95,4 +96,7 @@ For unclear component with props:
  * @param query - The media query to match according to the CSS specification
  * @see https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
  */
+const MediaQuery = ({ children, query }: PropsWithChildren<Props>) => {
+    //...
+};
 ```
