@@ -31,7 +31,7 @@ The **`/app`** folder contains all routes (pages) and the **layout** of the appl
 
 Subfolders in `/app`:
 
-Some components are scoped to a specific route groups or routes.
+Some components are scoped to specific route groups or routes.
 
 Take a look at the following example:
 
