@@ -18,7 +18,7 @@
         "scss-partials": "^1.4.0"
     },
     "devDependencies": {
-        "@next/eslint-plugin-next": "^13.4.7",
+        "@next/eslint-plugin-next": "^13.4.9",
         "@playwright/test": "^1.35.1",
         "@types/node": "20.3.3",
         "@types/react": "18.2.14",
