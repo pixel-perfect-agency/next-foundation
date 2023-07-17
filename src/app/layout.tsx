@@ -1,8 +1,6 @@
-import React from 'react';
-
 import { Albert_Sans } from 'next/font/google';
 
-import '~styles/global.scss';
+import '~styles/global.css';
 
 interface Props {
     children: React.ReactNode;

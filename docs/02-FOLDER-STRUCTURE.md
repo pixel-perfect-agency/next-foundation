@@ -29,35 +29,59 @@ The **public** folder contains all static files. This includes files like:
 The **`/app`** folder contains all routes (pages) and the **layout** of the application. This folder is the **entry point** of the application and handled by **Next.js 13**. Read extensive documentation about the [app directory here](https://beta.nextjs.org/docs/routing/fundamentals#the-app-directory).
 <br>
 
-### **/core**
+Subfolders in `/app`:
 
-The **core** of the application. This folder contains all the **markup**, **logic** and **styling** that is not specific to a page. This includes:
+Some components are scoped to specific route groups or routes.
 
--   Components which are reused across the application
--   Global styles
--   Reusable functions and hooks
+Take a look at the following example:
 
-Think of this folder as the **foundation** of the application. It is the **core** on which the rest of the application is built.
+```txt
+/app
+├── (dashboard)
+│   ├── components/
+│   └── page.tsx
+├── (auth)
+│   ├── components/
+│   ├── hooks/
+│   ├── layout.tsx
+│   └── page.tsx
+└── (profile)
+    ├── components/
+    └── page.tsx
+```
+
+You must never use components from other "modules" in a module. For example, the **dashboard** module must not use components from the **auth** module.
+
+If a component is used in multiple modules, it should be placed in the **/components** folder.
+
+### **/components**
+
+The **core** components of the application. This folder contains all components that are used in multiple modules. These components are **generic** and **reusable**. They are **not** specific to a module. Examples of these components are:
+
+-   Buttons
+-   Inputs
+-   Cards
+
+Think of this folder as the **scoped design-system** of the application.
 If a [design system](https://leerob.io/blog/style-guides-component-libraries-design-systems) is used across multiple projects, create a separate repository & package for it, and import it as a dependency.
-If a design system is used only in this project, it should be placed in the **`/core`** folder.
 <br>
+
+### **/hooks**
+
+The **hooks** folder contains all the custom hooks that are not specific to a module / feature.
+Examples of these hooks are:
+
+-   useDebounce
+-   useLocalStorage
 
 ### **/locales**
 
 The optional **locales** folder contains all the translations for the application. _This is not implemented yet!_
 <br>
 
-### **/modules**
+### **/styles**
 
-The **modules** folder contains folders for every **module** in the application. A **module** is a **self-contained** part of the application. It contains all the **markup**, **logic** and **styling** that is specific to a module. This includes:
-
--   Components which are only used in this module
--   Module specific styles
--   Module specific functions and hooks
-
-The folder should be named after the scope of the module. For example, if the module is a **blog**, the folder should be named **`/blog`**. If the module is a **user profile**, the folder should be named **`/profile`**.
-
-<br>
+The **styles** folder contains all the global styles for the application. In this case it loads [TailwindCSS](https://tailwindcss.com/).
 
 ### **/tests**
 
