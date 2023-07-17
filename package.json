@@ -21,7 +21,7 @@
         "@next/eslint-plugin-next": "^13.4.10",
         "@playwright/test": "^1.36.1",
         "@types/node": "20.4.1",
-        "@types/react": "18.2.14",
+        "@types/react": "18.2.15",
         "eslint": "^8.45.0",
         "eslint-config-pixel": "^1.4.3",
         "sass": "^1.63.4",
