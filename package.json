@@ -16,7 +16,7 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "@next/eslint-plugin-next": "^13.4.10",
+        "@next/eslint-plugin-next": "^13.4.12",
         "@playwright/test": "^1.36.1",
         "@types/node": "20.4.2",
         "@types/react": "18.2.15",
