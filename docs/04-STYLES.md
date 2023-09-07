@@ -11,7 +11,7 @@ The utility-first approach is very powerful, but it can also lead to a lot of du
 
 const Button = ({ children }: PropsWithChildren) => {
     return (
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700">
             {children}
         </button>
     );
