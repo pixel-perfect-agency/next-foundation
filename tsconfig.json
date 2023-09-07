@@ -21,14 +21,12 @@
         "baseUrl": ".",
         "paths": {
             "~app/*": ["src/app/*"],
-            "~locales/*": ["src/locales/*"],
-            "~modules/*": ["src/modules/*"],
-            "~tests/*": ["src/tests/*"],
-            "~types/*": ["src/types/*"],
             "~components/*": ["src/components/*"],
             "~hooks/*": ["src/hooks/*"],
+            "~locales/*": ["src/locales/*"],
             "~styles/*": ["src/styles/*"],
-            "~core*": ["src/core/*"],
+            "~tests/*": ["src/tests/*"],
+            "~types/*": ["src/types/*"],
             "~/*": ["src/*"]
         }
     },
