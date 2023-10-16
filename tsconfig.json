@@ -27,6 +27,7 @@
             "~styles/*": ["src/styles/*"],
             "~tests/*": ["src/tests/*"],
             "~types/*": ["src/types/*"],
+            "~utils/*": ["src/utils/*"],
             "~/*": ["src/*"]
         }
     },
