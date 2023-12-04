@@ -20,7 +20,7 @@
     },
     "devDependencies": {
         "@playwright/test": "^1.40.0",
-        "@types/node": "20.9.2",
+        "@types/node": "20.10.3",
         "@types/react": "18.2.38",
         "autoprefixer": "^10.4.16",
         "eslint": "^8.54.0",
