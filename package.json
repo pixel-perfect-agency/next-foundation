@@ -19,7 +19,7 @@
         "tailwind-merge": "^2.1.0"
     },
     "devDependencies": {
-        "@playwright/test": "^1.40.0",
+        "@playwright/test": "^1.40.1",
         "@types/node": "20.10.3",
         "@types/react": "18.2.38",
         "autoprefixer": "^10.4.16",
