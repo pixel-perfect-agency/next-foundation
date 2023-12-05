@@ -9,11 +9,11 @@ const Component = () => {
     const currentLocale = useCurrentLocale();
 
     return (
-        <div className="my-4 p-4 border border-gray-200 rounded-lg w-fit">
+        <div className="my-4 w-fit rounded-lg border border-gray-200 p-4">
             <h2 className="text-xl font-semibold">Hello World!</h2>
             <p>
                 {t('component.location')}{' '}
-                <span className="bg-gray-200 px-2 py-1 text-sm rounded-md">
+                <span className="rounded-md bg-gray-200 px-2 py-1 text-sm">
                     src/components/misc/component.tsx
                 </span>
             </p>
@@ -21,14 +21,14 @@ const Component = () => {
                 {t('change-locale')}:
                 <div className="flex gap-2">
                     <button
-                        className={cn('bg-gray-200 px-2 py-1 text-sm rounded-md', {
+                        className={cn('rounded-md bg-gray-200 px-2 py-1 text-sm', {
                             'bg-blue-500 text-white': currentLocale === 'en',
                         })}
                         onClick={() => changeLocale('en')}>
                         en
                     </button>
                     <button
-                        className={cn('bg-gray-200 px-2 py-1 text-sm rounded-md', {
+                        className={cn('rounded-md bg-gray-200 px-2 py-1 text-sm', {
                             'bg-blue-500 text-white': currentLocale === 'nl',
                         })}
                         onClick={() => changeLocale('nl')}>
