@@ -1,5 +1,4 @@
 import { type PropsWithChildren } from 'react';
-
 import { Albert_Sans } from 'next/font/google';
 
 import '~styles/global.css';
