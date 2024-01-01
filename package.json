@@ -11,7 +11,7 @@
         "test:report": "playwright show-report"
     },
     "dependencies": {
-        "clsx": "^2.0.0",
+        "clsx": "^2.1.0",
         "next": "^14.0.4",
         "next-international": "^1.1.4",
         "react": "^18.2.0",
