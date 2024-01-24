@@ -26,7 +26,7 @@ The **public** folder contains all static files. This includes files like:
 
 ### **/app**
 
-The **`/app`** folder contains all routes (pages) and the **layout** of the application. This folder is the **entry point** of the application and handled by **Next.js 13**. Read extensive documentation about the [app directory here](https://beta.nextjs.org/docs/routing/fundamentals#the-app-directory).
+The **`/app`** folder contains all routes (pages) and the **layout** of the application. This folder is the **entry point** of the application and handled by **Next.js 13**. Read extensive documentation about the [app directory here](https://nextjs.org/docs).
 <br>
 
 Subfolders in `/app`:
