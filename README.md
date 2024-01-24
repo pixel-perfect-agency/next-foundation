@@ -5,8 +5,8 @@ A very **solid architecture** for scalable Next.js projects.
 ### **Quick setup**
 
 ```
-npm i
-npm run dev
+pnpm i
+pnpm run dev
 ```
 
 ## **Rationale**
