@@ -2,7 +2,7 @@
 
 /** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 module.exports = {
-    // @ts-ignore
+    // @ts-expect-error - This is a valid config
     ...require('eslint-config-pixel/prettier/base'),
     plugins: ['@ianvs/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
     importOrder: ['^react$', '^next$', '<THIRD_PARTY_MODULES>', '', '^~(.*)$'],
