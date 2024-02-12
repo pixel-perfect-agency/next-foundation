@@ -15,8 +15,8 @@ dependencies:
     specifier: ^14.1.0
     version: 14.1.0(@babel/core@7.23.9)(react-dom@18.2.0)(react@18.2.0)
   next-international:
-    specifier: ^1.2.3
-    version: 1.2.3
+    specifier: ^1.2.4
+    version: 1.2.4
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2326,8 +2326,8 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-international@1.2.3:
-    resolution: {integrity: sha512-pLHX6dIjg2bd/LHcBIylhQXsiv2CQgAEKXb1tlVMXIj+RxpxgB9ymgkNdm4OsEmEpVlleCoq4T3k4Pi9QXZ8wQ==}
+  /next-international@1.2.4:
+    resolution: {integrity: sha512-JQvp+h2iSgA/t8hu5S/Lwow1ZErJutQRdpnplxjv4VTlCiND8T95fYih8BjkHcVhQbtM+Wu9Mb1CM32wD9hlWQ==}
     dependencies:
       client-only: 0.0.1
       international-types: 0.8.1
