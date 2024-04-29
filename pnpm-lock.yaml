@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@t3-oss/env-nextjs':
-    specifier: ^0.9.1
-    version: 0.9.1(typescript@5.4.5)(zod@3.23.0)
+    specifier: ^0.10.1
+    version: 0.10.1(typescript@5.4.5)(zod@3.23.0)
   clsx:
     specifier: ^2.1.1
     version: 2.1.1
@@ -561,8 +561,8 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@t3-oss/env-core@0.9.1(typescript@5.4.5)(zod@3.23.0):
-    resolution: {integrity: sha512-QgR4jV2BmRMdq+in5DbI9Ox/mgpNM/b1H1wB6a0Zf015RsuLk12mIC9FKzDtLITgSSSI/Gt8ZbarqugAUtRslw==}
+  /@t3-oss/env-core@0.10.1(typescript@5.4.5)(zod@3.23.0):
+    resolution: {integrity: sha512-GcKZiCfWks5CTxhezn9k5zWX3sMDIYf6Kaxy2Gx9YEQftFcz8hDRN56hcbylyAO3t4jQnQ5ifLawINsNgCDpOg==}
     peerDependencies:
       typescript: '>=5.0.0'
       zod: ^3.0.0
@@ -574,8 +574,8 @@ packages:
       zod: 3.23.0
     dev: false
 
-  /@t3-oss/env-nextjs@0.9.1(typescript@5.4.5)(zod@3.23.0):
-    resolution: {integrity: sha512-c5JbI8ADarxhItsimm0fnbrr6YLFC+8l509IFlc6v0Y6aEaAidhJkRj+SwyKtKzz/6gJ4c98vxd5kOLb3FoGWQ==}
+  /@t3-oss/env-nextjs@0.10.1(typescript@5.4.5)(zod@3.23.0):
+    resolution: {integrity: sha512-iy2qqJLnFh1RjEWno2ZeyTu0ufomkXruUsOZludzDIroUabVvHsrSjtkHqwHp1/pgPUzN3yBRHMILW162X7x2Q==}
     peerDependencies:
       typescript: '>=5.0.0'
       zod: ^3.0.0
@@ -583,7 +583,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@t3-oss/env-core': 0.9.1(typescript@5.4.5)(zod@3.23.0)
+      '@t3-oss/env-core': 0.10.1(typescript@5.4.5)(zod@3.23.0)
       typescript: 5.4.5
       zod: 3.23.0
     dev: false
