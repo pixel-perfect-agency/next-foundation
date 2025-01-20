@@ -13,7 +13,7 @@
     "dependencies": {
         "@t3-oss/env-nextjs": "^0.11.1",
         "clsx": "^2.1.1",
-        "next": "^14.2.15",
+        "next": "^15.1.5",
         "next-international": "^1.2.4",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
