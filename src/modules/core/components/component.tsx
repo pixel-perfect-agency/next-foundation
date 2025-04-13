@@ -7,7 +7,7 @@ const Component = () => {
             <p>
                 This component is located in:{' '}
                 <span className="rounded-md bg-gray-200 px-2 py-1 text-sm">
-                    src/components/misc/component.tsx
+                    src/modules/core/components/component.tsx
                 </span>
             </p>
         </div>
