@@ -1,4 +1,4 @@
-name: Lint using Next.js with ESLint and Stylelint
+name: Lint using Next.js with Biome
 
 on: push
 
