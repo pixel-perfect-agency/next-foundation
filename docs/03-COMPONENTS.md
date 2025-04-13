@@ -2,7 +2,7 @@
 
 Components hypen-case as a filename and end with `.tsx`.
 
-All NPM packages are also lowercase and hypen-case, to keep all imports consistent the project uses the same naming convention.
+All NPM packages are also lowercase and hypen-case, Next.js file convention as well. To keep all imports consistent the project uses the same naming convention.
 
 -   `button.tsx`
 -   `menu-foldout.tsx`
@@ -19,7 +19,7 @@ You should only do this when you are sure that the component can only be used in
 
 ## Location
 
-Components which are reusable across the application should be placed in the `src/components` folder.
+Components which are reusable across the application should be placed in the `src/modules/core/components` folder.
 
 Components which belong to a module should be placed in the `src/app/(<module-name>)/components` folder.
 

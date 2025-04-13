@@ -18,7 +18,6 @@ The **public** folder contains all static files. This includes files like:
 -   Fonts
 -   Favicon
 -   robots.txt
--   sitemap.xml
 
 <br>
 
@@ -26,35 +25,27 @@ The **public** folder contains all static files. This includes files like:
 
 ### **/app**
 
-The **`/app`** folder contains all routes (pages) and the **layout** of the application. This folder is the **entry point** of the application and handled by **Next.js 13**. Read extensive documentation about the [app directory here](https://nextjs.org/docs).
+The **`/app`** folder contains all routes (pages) and the **layout** of the application. Read extensive documentation about the [app directory here](https://nextjs.org/docs).
 <br>
 
-Subfolders in `/app`:
+You must never place any components other than Next.js defined components in this folder. This includes the following: `layout.tsx`, `page.tsx`, `error.tsx`, `loading.tsx`, `not-found.tsx` etc.
 
-Some components are scoped to specific route groups or routes.
+All other components must be placed a specific module folder in the **`/src/modules`** folder. Shared components that are used in multiple modules must be placed in the **`/src/modules/core`** folder.
 
-Take a look at the following example:
 
-```txt
-/app
-├── (dashboard)
-│   ├── components/
-│   └── page.tsx
-├── (auth)
-│   ├── components/
-│   ├── hooks/
-│   ├── layout.tsx
-│   └── page.tsx
-└── (profile)
-    ├── components/
-    └── page.tsx
-```
+### **/modules**
 
-You must never use components from other "modules" in a module. For example, the **dashboard** module must not use components from the **auth** module.
+The **modules** folder contains all the modules of the application. Each module is a **feature** of the application. Each module has its own folder. The folder name should be the same as the module name. The module name should be in **kebab-case**.
 
-If a component is used in multiple modules, it should be placed in the **/components** folder.
+The module folder contains all the components, hooks, styles and types that are specific to that module. The module folder should contain the following folders:
 
-### **/components**
+-   **components**: All components that are specific to that module.
+-   **hooks**: All hooks that are specific to that module.
+-   **utils**: All utils that are specific to that module.
+
+The rationale for modules is to provide a clear separation of concerns but allow sharing of components within specific page implementations. This way you can compose a page from multiple modules, but still have a clear separation of concerns.
+
+### **/modules/core/components**
 
 The **core** components of the application. This folder contains all components that are used in multiple modules. These components are **generic** and **reusable**. They are **not** specific to a module. Examples of these components are:
 
@@ -62,11 +53,8 @@ The **core** components of the application. This folder contains all components 
 -   Inputs
 -   Cards
 
-Think of this folder as the **scoped design-system** of the application.
-If a [design system](https://leerob.io/blog/style-guides-component-libraries-design-systems) is used across multiple projects, create a separate repository & package for it, and import it as a dependency.
-<br>
 
-### **/hooks**
+### **/modules/core/hooks**
 
 The **hooks** folder contains all the custom hooks that are not specific to a module / feature.
 Examples of these hooks are:
@@ -74,10 +62,6 @@ Examples of these hooks are:
 -   useDebounce
 -   useLocalStorage
 
-### **/locales**
-
-The optional **locales** folder contains all the translations for the application. _This is not implemented yet!_
-<br>
 
 ### **/styles**
 
@@ -87,4 +71,4 @@ The **styles** folder contains all the global styles for the application. In thi
 
 ### **/types**
 
-The **types** folder contains all the typescript types. These can be reusable, types for the application or types for the API.
+The **types** folder contains all the Typescript types. These can be reusable, types for the application or types for the API.
