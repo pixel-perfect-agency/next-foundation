@@ -30,7 +30,7 @@
             "~types/*": ["src/types/*"],
             "~utils/*": ["src/utils/*"],
             "~/*": ["src/*"]
-        },
+        }
     },
     "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
     "exclude": ["node_modules"]
