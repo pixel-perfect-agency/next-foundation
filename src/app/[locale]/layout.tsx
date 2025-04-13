@@ -1,15 +1,18 @@
 'use client';
 
-import { type ReactNode } from 'react';
+import { type ReactNode, use } from 'react';
 
 import { I18nProviderClient } from '~locales/client';
 
 interface Props {
     children: ReactNode;
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }
 
-const Layout = ({ children, params }: Props) => {
+const Layout = (props: Props) => {
+    const params = use(props.params);
+    const { children } = props;
+
     return <I18nProviderClient locale={params.locale}>{children}</I18nProviderClient>;
 };
 
