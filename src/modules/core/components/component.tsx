@@ -10,7 +10,6 @@ const Component = () => {
                     src/components/misc/component.tsx
                 </span>
             </p>
-           
         </div>
     );
 };
