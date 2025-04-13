@@ -1,4 +1,4 @@
-import Component from '~components/misc/component';
+import Component from '~components/component';
 
 const Page = async () => {
 
