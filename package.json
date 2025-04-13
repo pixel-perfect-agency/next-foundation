@@ -4,7 +4,8 @@
         "dev": "next dev --turbopack",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint",
+        "lint": "biome check",
+        "lint:fix": "biome check --write",
         "test": "playwright test",
         "test:debug": "playwright test --headed",
         "test:report": "playwright show-report"
