@@ -83,10 +83,6 @@ The optional **locales** folder contains all the translations for the applicatio
 
 The **styles** folder contains all the global styles for the application. In this case it loads [TailwindCSS](https://tailwindcss.com/).
 
-### **/tests**
-
-The **tests** folder contains e2e tests with Playwright. This is a great tool for testing the application. It is very easy to use and has a lot of great features. Read extensive documentation about [Playwright here](https://playwright.dev/docs/intro).
-
 <br>
 
 ### **/types**

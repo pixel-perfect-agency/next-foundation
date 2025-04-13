@@ -8,7 +8,6 @@ This is the documentation for **Next Foundation**. It is a **starting template**
 -   **Based on Next.js 13.** This project is built on top of Next.js 13. This means that all the great features of Next.js 13 are available. It will be upgraded to the latest versions of Next.
 -   **Frontend-first.** This project is built with a frontend-first mindset. A lot of teams want to seperate frontend and API's. For example by using [Laravel](https://laravel.com/), even though Next.js can be used as a [fullstack framework](https://www.youtube.com/watch?v=W4UhNo3HAMw).
 -   **Internationalization.** This project uses [next-international](https://next-international.vercel.app/) for internationalization. This is a great tool for internationalizing your application.
--   **End to end testing.** This project uses [Playwright](https://playwright.dev/) for end to end testing. This is a great tool for testing the application as a whole.
 
 ## **Why Next.js?**
 
