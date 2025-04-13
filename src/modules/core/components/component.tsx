@@ -5,7 +5,7 @@ const Component = () => {
         <div className="my-4 w-fit rounded-lg border border-gray-200 p-4">
             <h2 className="font-semibold text-xl">Hello World!</h2>
             <p>
-                This component is located is located in:{' '}
+                This component is located in:{' '}
                 <span className="rounded-md bg-gray-200 px-2 py-1 text-sm">
                     src/components/misc/component.tsx
                 </span>
