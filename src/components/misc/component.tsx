@@ -10,7 +10,7 @@ const Component = () => {
 
     return (
         <div className="my-4 w-fit rounded-lg border border-gray-200 p-4">
-            <h2 className="text-xl font-semibold">Hello World!</h2>
+            <h2 className="font-semibold text-xl">Hello World!</h2>
             <p>
                 {t('component.location')}{' '}
                 <span className="rounded-md bg-gray-200 px-2 py-1 text-sm">
@@ -21,17 +21,21 @@ const Component = () => {
                 {t('change-locale')}:
                 <div className="flex gap-2">
                     <button
+                        type="button"
                         className={cn('rounded-md bg-gray-200 px-2 py-1 text-sm', {
                             'bg-blue-500 text-white': currentLocale === 'en',
                         })}
-                        onClick={() => changeLocale('en')}>
+                        onClick={() => changeLocale('en')}
+                    >
                         en
                     </button>
                     <button
+                        type="button"
                         className={cn('rounded-md bg-gray-200 px-2 py-1 text-sm', {
                             'bg-blue-500 text-white': currentLocale === 'nl',
                         })}
-                        onClick={() => changeLocale('nl')}>
+                        onClick={() => changeLocale('nl')}
+                    >
                         nl
                     </button>
                 </div>

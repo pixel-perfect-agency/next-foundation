@@ -6,7 +6,7 @@ const Page = async () => {
 
     return (
         <div className="m-8">
-            <h1 className="text-2xl font-semibold">{t('home.description')}</h1>
+            <h1 className="font-semibold text-2xl">{t('home.description')}</h1>
             <Component />
         </div>
     );

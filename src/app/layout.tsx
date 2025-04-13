@@ -1,6 +1,6 @@
-import { type PropsWithChildren } from 'react';
-import { type Metadata } from 'next';
+import type { Metadata } from 'next';
 import { Albert_Sans } from 'next/font/google';
+import type { PropsWithChildren } from 'react';
 
 import '~styles/global.css';
 
@@ -12,7 +12,7 @@ const AlbertSansFont = Albert_Sans({
 
 const RootLayout = ({ children }: PropsWithChildren) => {
     return (
-        <html className={AlbertSansFont.className}>
+        <html className={AlbertSansFont.className} lang="en">
             <body>{children}</body>
         </html>
     );
