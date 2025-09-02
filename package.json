@@ -23,7 +23,7 @@
         "autoprefixer": "^10.4.20",
         "biome-config-pixel": "^2.0.0",
         "postcss": "^8.5.6",
-        "tailwindcss": "^3.4.14",
+        "tailwindcss": "^4.1.12",
         "typescript": "^5.9.2"
     },
     "packageManager": "pnpm@10.8.0"
