@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "@biomejs/biome": "^2.2.4",
-        "@types/node": "24.3.1",
+        "@types/node": "24.5.2",
         "@types/react": "19.1.12",
         "autoprefixer": "^10.4.20",
         "biome-config-pixel": "^2.0.0",
