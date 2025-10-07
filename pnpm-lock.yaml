@@ -34,8 +34,8 @@ importers:
         specifier: ^2.2.5
         version: 2.2.5
       '@types/node':
-        specifier: 24.3.1
-        version: 24.3.1
+        specifier: 24.7.0
+        version: 24.7.0
       '@types/react':
         specifier: 19.1.15
         version: 19.1.15
@@ -380,8 +380,8 @@ packages:
       zod:
         optional: true
 
-  '@types/node@24.3.1':
-    resolution: {integrity: sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==}
+  '@types/node@24.7.0':
+    resolution: {integrity: sha512-IbKooQVqUBrlzWTi79E8Fw78l8k1RNtlDDNWsFZs7XonuQSJ8oNYfEeclhprUldXISRMLzBpILuKgPlIxm+/Yw==}
 
   '@types/react@19.1.15':
     resolution: {integrity: sha512-+kLxJpaJzXybyDyFXYADyP1cznTO8HSuBpenGlnKOAkH4hyNINiywvXS/tGJhsrGGP/gM185RA3xpjY0Yg4erA==}
@@ -880,8 +880,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@7.10.0:
-    resolution: {integrity: sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==}
+  undici-types@7.14.0:
+    resolution: {integrity: sha512-QQiYxHuyZ9gQUIrmPo3IA+hUl4KYk8uSA7cHrcKd/l3p1OTpZcM0Tbp9x7FAtXdAYhlasd60ncPpgu6ihG6TOA==}
 
   update-browserslist-db@1.1.3:
     resolution: {integrity: sha512-UxhIZQ+QInVdunkDAaiazvvT/+fXL5Osr0JZlJulepYu6Jd7qJtDZjlur0emRlT71EN3ScPoE7gvsuIKKNavKw==}
@@ -1154,9 +1154,9 @@ snapshots:
       valibot: 1.1.0(typescript@5.9.3)
       zod: 3.24.1
 
-  '@types/node@24.3.1':
+  '@types/node@24.7.0':
     dependencies:
-      undici-types: 7.10.0
+      undici-types: 7.14.0
 
   '@types/react@19.1.15':
     dependencies:
@@ -1646,7 +1646,7 @@ snapshots:
 
   typescript@5.9.3: {}
 
-  undici-types@7.10.0: {}
+  undici-types@7.14.0: {}
 
   update-browserslist-db@1.1.3(browserslist@4.24.4):
     dependencies:
