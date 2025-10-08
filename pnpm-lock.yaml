@@ -43,8 +43,8 @@ importers:
         specifier: 19.1.15
         version: 19.1.15
       biome-config-pixel:
-        specifier: ^2.0.0
-        version: 2.0.0
+        specifier: 2.1.1
+        version: 2.1.1
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -459,8 +459,8 @@ packages:
   arktype@2.1.20:
     resolution: {integrity: sha512-IZCEEXaJ8g+Ijd59WtSYwtjnqXiwM8sWQ5EjGamcto7+HVN9eK0C4p0zDlCuAwWhpqr6fIBkxPuYDl4/Mcj/+Q==}
 
-  biome-config-pixel@2.0.0:
-    resolution: {integrity: sha512-y/1hR99Zrp9wHn8swQsHR4WCtDT7eVWApuAOk9gigi362JYWM74nKp/4lEU+9WLEuJRREAStWUpL4AFX4JrLnQ==}
+  biome-config-pixel@2.1.1:
+    resolution: {integrity: sha512-27aFGwx7ut+2lH2/twANgQ16oYojgaq3F9Xxifr5CAMQoL/9SLXLcsc1MnkDiNRiE6Q7ubdom6wc8C58jP+aow==}
 
   caniuse-lite@1.0.30001745:
     resolution: {integrity: sha512-ywt6i8FzvdgrrrGbr1jZVObnVv6adj+0if2/omv9cmR2oiZs30zL4DIyaptKcbOrBdOIc74QTMoJvSE2QHh5UQ==}
@@ -1000,7 +1000,7 @@ snapshots:
       '@ark/util': 0.46.0
     optional: true
 
-  biome-config-pixel@2.0.0: {}
+  biome-config-pixel@2.1.1: {}
 
   caniuse-lite@1.0.30001745: {}
 
