@@ -22,7 +22,5 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Setup Biome
         uses: biomejs/setup-biome@v2
-        with:
-          version: "2.0.4" # Match the version in package.json
       - name: Run Biome
         run: biome ci .
