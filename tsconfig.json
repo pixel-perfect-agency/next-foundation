@@ -32,6 +32,13 @@
             "~/*": ["src/*"]
         }
     },
-    "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "**/*.js", ".next/dev/types/**/*.ts"],
+    "include": [
+        "next-env.d.ts",
+        ".next/types/**/*.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js",
+        ".next/dev/types/**/*.ts"
+    ],
     "exclude": ["node_modules"]
 }
