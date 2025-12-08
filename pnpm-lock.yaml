@@ -16,13 +16,13 @@ importers:
         version: 2.1.1
       next:
         specifier: 16.0.3
-        version: 16.0.3(@playwright/test@1.51.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 16.0.3(@playwright/test@1.51.1)(react-dom@19.1.1(react@19.2.1))(react@19.2.1)
       react:
-        specifier: 19.1.1
-        version: 19.1.1
+        specifier: 19.2.1
+        version: 19.2.1
       react-dom:
         specifier: 19.1.1
-        version: 19.1.1(react@19.1.1)
+        version: 19.1.1(react@19.2.1)
       tailwind-merge:
         specifier: ^3.4.0
         version: 3.4.0
@@ -40,8 +40,8 @@ importers:
         specifier: 24.10.1
         version: 24.10.1
       '@types/react':
-        specifier: 19.1.15
-        version: 19.1.15
+        specifier: 19.2.7
+        version: 19.2.7
       biome-config-pixel:
         specifier: 2.1.1
         version: 2.1.1
@@ -460,8 +460,8 @@ packages:
   '@types/node@24.10.1':
     resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
 
-  '@types/react@19.1.15':
-    resolution: {integrity: sha512-+kLxJpaJzXybyDyFXYADyP1cznTO8HSuBpenGlnKOAkH4hyNINiywvXS/tGJhsrGGP/gM185RA3xpjY0Yg4erA==}
+  '@types/react@19.2.7':
+    resolution: {integrity: sha512-MWtvHrGZLFttgeEj28VXHxpmwYbor/ATPYbBfSFZEIRK0ecCFLl2Qo55z52Hss+UV9CRN7trSeq1zbgx7YDWWg==}
 
   arktype@2.1.20:
     resolution: {integrity: sha512-IZCEEXaJ8g+Ijd59WtSYwtjnqXiwM8sWQ5EjGamcto7+HVN9eK0C4p0zDlCuAwWhpqr6fIBkxPuYDl4/Mcj/+Q==}
@@ -479,8 +479,8 @@ packages:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
 
-  csstype@3.1.3:
-    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
+  csstype@3.2.3:
+    resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
 
   detect-libc@2.1.2:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
@@ -583,6 +583,7 @@ packages:
   next@16.0.3:
     resolution: {integrity: sha512-Ka0/iNBblPFcIubTA1Jjh6gvwqfjrGq1Y2MTI5lbjeLIAfmC+p5bQmojpRZqgHHVu5cG4+qdIiwXiBSm/8lZ3w==}
     engines: {node: '>=20.9.0'}
+    deprecated: This version has a security vulnerability. Please upgrade to a patched version. See https://nextjs.org/blog/CVE-2025-66478 for more details.
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
@@ -627,8 +628,8 @@ packages:
     peerDependencies:
       react: ^19.1.1
 
-  react@19.1.1:
-    resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
+  react@19.2.1:
+    resolution: {integrity: sha512-DGrYcCWK7tvYMnWh79yrPHt+vdx9tY+1gPZa7nJQtO/p8bLTDaHp4dzwEhQB7pZ4Xe3ok4XKuEPrVuc+wlpkmw==}
     engines: {node: '>=0.10.0'}
 
   scheduler@0.26.0:
@@ -984,9 +985,9 @@ snapshots:
     dependencies:
       undici-types: 7.16.0
 
-  '@types/react@19.1.15':
+  '@types/react@19.2.7':
     dependencies:
-      csstype: 3.1.3
+      csstype: 3.2.3
 
   arktype@2.1.20:
     dependencies:
@@ -1002,7 +1003,7 @@ snapshots:
 
   clsx@2.1.1: {}
 
-  csstype@3.1.3: {}
+  csstype@3.2.3: {}
 
   detect-libc@2.1.2: {}
 
@@ -1073,15 +1074,15 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  next@16.0.3(@playwright/test@1.51.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  next@16.0.3(@playwright/test@1.51.1)(react-dom@19.1.1(react@19.2.1))(react@19.2.1):
     dependencies:
       '@next/env': 16.0.3
       '@swc/helpers': 0.5.15
       caniuse-lite: 1.0.30001756
       postcss: 8.4.31
-      react: 19.1.1
-      react-dom: 19.1.1(react@19.1.1)
-      styled-jsx: 5.1.6(react@19.1.1)
+      react: 19.2.1
+      react-dom: 19.1.1(react@19.2.1)
+      styled-jsx: 5.1.6(react@19.2.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.0.3
       '@next/swc-darwin-x64': 16.0.3
@@ -1121,12 +1122,12 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  react-dom@19.1.1(react@19.1.1):
+  react-dom@19.1.1(react@19.2.1):
     dependencies:
-      react: 19.1.1
+      react: 19.2.1
       scheduler: 0.26.0
 
-  react@19.1.1: {}
+  react@19.2.1: {}
 
   scheduler@0.26.0: {}
 
@@ -1167,10 +1168,10 @@ snapshots:
 
   source-map-js@1.2.1: {}
 
-  styled-jsx@5.1.6(react@19.1.1):
+  styled-jsx@5.1.6(react@19.2.1):
     dependencies:
       client-only: 0.0.1
-      react: 19.1.1
+      react: 19.2.1
 
   tailwind-merge@3.4.0: {}
 
