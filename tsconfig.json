@@ -25,6 +25,7 @@
             "~components/*": ["src/modules/core/components/*"],
             "~hooks/*": ["src/hooks/*"],
             "~locales/*": ["src/locales/*"],
+            "~modules/*": ["src/modules/*"],
             "~styles/*": ["src/styles/*"],
             "~tests/*": ["src/tests/*"],
             "~types/*": ["src/types/*"],
