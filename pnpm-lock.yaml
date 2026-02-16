@@ -43,8 +43,8 @@ importers:
         specifier: 19.2.10
         version: 19.2.10
       biome-config-pixel:
-        specifier: 2.1.6
-        version: 2.1.6
+        specifier: 2.1.7
+        version: 2.1.7
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
@@ -470,8 +470,8 @@ packages:
     resolution: {integrity: sha512-ipDqC8FrAl/76p2SSWKSI+H9tFwm7vYqXQrItCuiVPt26Km0jS+NzSsBWAaBusvSbQcfJG+JitdMm+wZAgTYqg==}
     hasBin: true
 
-  biome-config-pixel@2.1.6:
-    resolution: {integrity: sha512-nfufaZsax8lHfhZy6F9wFCfrlUey6fdSZXpOc57pbyDh7t/bFy37EAdKXu8OXMNuontVgvHmW5bNzfa6/XUuXA==}
+  biome-config-pixel@2.1.7:
+    resolution: {integrity: sha512-f2D0F+a4MkhMNV3l5rk1Drf5ZVOMyeW33PcO5iAaoZoU3zcgjT15xoMatfhf4JKaKd/7Y/WbS4lZRBNfkDH18w==}
 
   caniuse-lite@1.0.30001767:
     resolution: {integrity: sha512-34+zUAMhSH+r+9eKmYG+k2Rpt8XttfE4yXAjoZvkAPs15xcYQhyBYdalJ65BzivAvGRMViEjy6oKr/S91loekQ==}
@@ -1000,7 +1000,7 @@ snapshots:
 
   baseline-browser-mapping@2.9.19: {}
 
-  biome-config-pixel@2.1.6: {}
+  biome-config-pixel@2.1.7: {}
 
   caniuse-lite@1.0.30001767: {}
 
