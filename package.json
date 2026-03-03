@@ -17,7 +17,7 @@
         "valibot": "^1.2.0"
     },
     "devDependencies": {
-        "@biomejs/biome": "2.4.0",
+        "@biomejs/biome": "2.4.5",
         "@tailwindcss/postcss": "^4.2.1",
         "@types/node": "25.3.3",
         "@types/react": "19.2.14",
