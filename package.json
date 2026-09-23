@@ -19,7 +19,7 @@
     "devDependencies": {
         "@biomejs/biome": "2.5.14",
         "@tailwindcss/postcss": "^4.3.3",
-        "@types/node": "26.5.1",
+        "@types/node": "26.6.2",
         "@types/react": "19.3.0",
         "biome-config-pixel": "2.1.7",
         "postcss": "^8.5.28",
