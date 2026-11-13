@@ -21,7 +21,7 @@
         "@tailwindcss/postcss": "^4.3.3",
         "@types/node": "26.6.6",
         "@types/react": "19.3.0",
-        "biome-config-pixel": "2.1.7",
+        "biome-config-pixel": "2.2.0",
         "postcss": "^8.5.32",
         "tailwindcss": "^4.3.3",
         "typescript": "^7.0.2"
